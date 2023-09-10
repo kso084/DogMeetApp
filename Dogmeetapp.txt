@@ -1,0 +1,43 @@
+Webpage
+	MEAN stack
+	Front End Pages
+		Topbar/Appbar
+			Link - Search
+			Link - Login/Account
+			Link - Homepage
+		Front page
+			Tinder-esque swipe
+		Login
+			Username/email
+			Password
+			Login with google etc
+			Link - Forgotten your password
+			Link - Register
+		Register
+			Register with google etc
+			Username/email
+			Password
+		Account/Profile
+			Radius willing to travel
+			Location (approximate) (streets but not numbers)
+		Contact us
+			Email
+			Chat?
+		Search
+			Selectable sorting (closest to furthest f.ex.)
+			Selectable map
+				Radius and/or locations
+			Traits
+				Energy (low, medium, high)
+				Size (height and weight) (if breed not selected) (xs-xl, with guides on approx size)
+				Confidence				
+				Breed (automatically gives size, autofills energy?) (purebred, mixed)
+				Age (puppy, adult, senior)
+				Disabilities
+				Aggression
+				Languages
+				Time available
+				
+
+App
+	Flutter
