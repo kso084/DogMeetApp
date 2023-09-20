@@ -1,5 +1,80 @@
 Webpage
 	MEAN stack
+	Backend
+		Models
+			User
+				Username
+				Email
+				Pwd
+				Radius willing to travel
+				Location
+			Dog
+				Details (willing to travel by car etc)
+				Energy (low, medium, high)
+				Size (height and weight) (if breed not selected) (xs-xl, with guides on approx size)
+				Confidence				
+				Breed(s) (automatically gives size, autofills energy?) (purebred, mixed)
+				Age (puppy, adult, senior)
+				Disabilities
+				Aggression
+				Languages
+				Time available
+				Pics (min 1)
+			Meetings
+				Time
+				Profile (dog)
+				Picture
+				Place
+			Location?
+				Address or choose from map
+			
+		API endpoints
+			Login
+			Register
+			Change password
+				Input
+					Old password
+					New password
+				Output
+					200 OK if old password is correct
+					401 Unauthorized if old password is wrong
+			CRUD user profile
+				Output
+					401 Unauthorized if not authenticated
+					403 Forbidden if authenticated but not that user
+					200 OK if user authenticated and is same user
+			Change/upload user pic
+				Output
+					401 Unauthorized if not authenticated
+					403 Forbidden if authenticated but not that user
+					200 OK if user authenticated and is same user
+			CRUD dog profile
+				Output
+					401 Unauthorized if not authenticated
+					403 Forbidden if authenticated but not that user
+					200 OK if user authenticated and is same user
+			Change/upload dog pics
+				Output
+					401 Unauthorized if not authenticated
+					403 Forbidden if authenticated but not that user
+					200 OK if user authenticated and is same user
+			Search
+				Input
+					Initial string to search for, else see front End Pages -> Search	
+				Output
+					200 OK
+			Random dogs
+				Input
+					Number of doggos
+				Output
+					Dogs
+					200 OK
+			CRUD meetings
+				Output
+					401 Unauthorized if not authenticated
+					403 Forbidden if authenticated but not that user
+					200 OK if user authenticated and is same user
+			
 	Front End Pages
 		Topbar/Appbar
 			Link - Search
@@ -22,13 +97,13 @@ Webpage
 			Location (approximate) (streets but not numbers)
 		Contact us
 			Email
-			Chat?
 
 		Upcoming meetings
 			Time
 			Profile
 			traits
 			Picture
+			Place
 			Cancel
 			
 
