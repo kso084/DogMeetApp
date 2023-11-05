@@ -71,7 +71,7 @@ exports.edit = async (req, res) => {
         updatedUser = await User.findOneAndUpdate({userName}, updatedUser, {new: true}).exec();
         res.status(200).json({message: { text: "User successfully updated", errorOccurred: false }})
     } catch (error) {
-        res.status(500).json({message: { text: "An error occurred", errorOccurred: true, error }})
+        res.status(500).json({message: { text: "An error occurred", errorOccurred: true }})
     };
 };
 

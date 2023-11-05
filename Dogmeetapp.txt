@@ -125,3 +125,16 @@ Webpage
 
 App
 	Flutter
+
+
+
+Ways to monetize
+	Ads (watch ad to get more swipes etc)
+	Promoting puppy training 
+	Freemium
+		Limited swipes
+		No google maps until paid
+		Limited # of meetings
+		Meetup for a lot of people on premium?
+	Selling puppies
+	Accessories - hundeklær etc
