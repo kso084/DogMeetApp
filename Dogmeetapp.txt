@@ -3,29 +3,33 @@ Webpage
 	Backend
 		Models
 			User
+				Name
+				Picture (optional)
 				Username
 				Email
 				Pwd
 				Radius willing to travel
-				Location
+				Locations
+				Dogs
+				Details (optional)
 			Dog
+				Name
 				Details (willing to travel by car etc)
 				Energy (low, medium, high)
 				Size (height and weight) (if breed not selected) (xs-xl, with guides on approx size)
 				Confidence				
 				Breed(s) (automatically gives size, autofills energy?) (purebred, mixed)
 				Age (puppy, adult, senior)
-				Disabilities
 				Aggression
-				Languages
 				Time available
+				Vaccines have been taken
 				Pics (min 1)
 			Meetings
 				Time
 				Profile (dog)
 				Picture
 				Place
-			Location?
+			Location
 				Address or choose from map
 			
 		API endpoints
@@ -92,9 +96,14 @@ Webpage
 			Register with google etc
 			Username/email
 			Password
+		Forgotten password and/or username
+			Only applicable if personal email, not if OAuth
 		Account/Profile
 			Radius willing to travel
 			Location (approximate) (streets but not numbers)
+			Etc, as in model
+			Dogs
+				
 		Contact us
 			Email
 
@@ -105,8 +114,6 @@ Webpage
 			Picture
 			Place
 			Cancel
-			
-
 		Search
 			Selectable sorting (closest to furthest f.ex.)
 			Selectable map
@@ -117,9 +124,8 @@ Webpage
 				Confidence				
 				Breed (automatically gives size, autofills energy?) (purebred, mixed)
 				Age (puppy, adult, senior)
-				Disabilities
 				Aggression
-				Languages
+				Vaccines have been taken
 				Time available
 				
 
